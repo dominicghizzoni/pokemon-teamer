@@ -18,7 +18,7 @@ function App() {
   }
 
   return (
-    <div style={{ padding: 20 }}>
+    <div className="items-center" style={{ padding: 20 }}>
       <h1>Pokémon Teamer</h1>
       <textarea value={desc} onChange={e => setDesc(e.target.value)} rows={6} cols={60} />
       <br />
